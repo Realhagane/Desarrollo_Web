@@ -1,0 +1,205 @@
+@font-face {
+    font-family:"Product Sans Regular";
+    src: url('../Recursos/Fuente/Product_Sans_Regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:"Product Sans Bold";
+    src: url('../Recursos/Fuente/Product_Sans_Bold.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+
+
+
+.contenedor{
+    height: 1080px;
+    width: 1980px;
+    background-color: lavender;
+    
+
+}
+
+.header{
+    width: 1980px;
+    height: 48px;
+    padding: 6px;
+    background-color: rgb(211, 248, 200);
+    line-height: 49px;
+    font-size: 14px;
+    
+    
+}
+
+.header a{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 0px;
+    color: black;
+
+
+}
+
+.header a:visited{
+    text-decoration:none;
+    color: black;
+}
+
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+
+
+.topright{
+    height: 48px;
+    width: 371.05px;
+    margin-right: 70px;
+    background-color: bisque;
+    font-size: 13px;
+    float: right;
+    
+    line-height: 47px;
+    
+}
+
+.topright a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.topright a:visited{
+    text-decoration:none;
+    color: black;
+}
+
+
+.topright a:hover{
+    text-decoration: underline;
+}
+
+.gmail{
+    margin-left: 25px;
+    position: absolute;
+}
+
+.imagenes{
+    margin-left: 74px;
+    
+}
+.topright table{
+    display: inline;
+    position: absolute;
+    padding: 10px;
+    margin-top: 4px;
+    margin-left: 19px;
+    
+  
+    border-radius: 100%;
+    background-color: aliceblue;
+}
+
+.topright td{
+    position: relative;
+    border-radius: 100%;
+    background-color: #5f6368;
+    padding: 2px;
+    
+    
+}
+.topright input{
+    background-color: #1a73e8;
+    border: 0;
+    height: 36px;
+    width: 135px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Product Sans Regular';
+    font-size: 15px;
+    border-radius: 3px;
+    position: absolute;
+    margin-left: 71px;
+    margin-top: 6px;
+
+}
+.google{
+    height: 290px;
+    background-color: beige;
+}
+.g{
+    font-family: 'Product Sans Regular';
+    font-size: 95px ;
+    font-weight: 500px;
+    margin: 0px;
+    padding-top:170px ;
+    padding-right: 270px;
+    color:#4285f4;
+    text-align: center;
+    vertical-align: bottom;
+
+}
+.o{
+    color:#ea4335 ;
+}
+.o2{
+    color: #fbbc05;
+}
+.gi{
+    color: #4285f4;
+}
+.l{
+    color: #34a853;
+}
+.e{
+    color: #ea4335;
+}
+.buscador1{
+    height: 120px;
+    padding: 20px;
+    background-color: blue;
+
+}
+
+.buscador2{
+    height: 140px;
+    padding: 0px;
+    background-color: rgb(121, 7, 7);
+}
+.buscador3{
+    position: relative;
+    margin: 0px 34%;
+    height: 133.5px;
+    padding-top:6px;
+    background-color: blueviolet;
+}
+
+.idiomas{
+    height: 330px;
+    background-color: rgb(43, 183, 226);
+
+}
+.footer1{
+    height: 48px;
+    background-color: red;
+}
+.footer2{
+    height: 49px;
+    background-color: rgb(36, 165, 79);
+
+}
